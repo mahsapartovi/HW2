@@ -114,7 +114,6 @@ if __name__ == "__main__" :
             test_id = line[:comma]
             caption = line[comma+1:]
             result[test_id] = caption
-    #count by the method described in the paper https://aclanthology.info/pdf/P/P02/P02-1040.pdf
     bleu_score=[]
     for item in test:
         score_per_video = []
